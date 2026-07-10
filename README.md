@@ -2,7 +2,7 @@
 
 A small, real Swift 6 library that demonstrates exactly where Swift's strict-concurrency guarantees (actor isolation, `Sendable`) stop applying once a call crosses into Objective-C — and one clean, tested pattern for bridging that gap safely instead of reaching for `@unchecked Sendable` everywhere.
 
-This is the demo repo for the Medium article *(link added below once published)* on migrating dual legacy-ObjC / modern-Swift-6 codebases.
+This is the demo repo for the Medium article, ["Your Swift 6 Actors Are Safe. Your Objective-C Bridge Isn't Even Checked."](https://medium.com/@er.rajatlakhina/your-swift-6-actors-are-safe-your-objective-c-bridge-isnt-even-checked-449d21ab26cb), on migrating dual legacy-ObjC / modern-Swift-6 codebases.
 
 ## The problem, in one compiler error
 
